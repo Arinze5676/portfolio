@@ -1,0 +1,180 @@
+.body {
+    background-color: #19142c;
+        color: white;
+}
+
+header {
+    position: fixed;
+    background-color: #19142c;
+    width: 100%;
+    top: 0;
+}
+
+.h3 {
+    color: rgb(141, 38, 38);
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { 
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.navg ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 5rem;
+}
+
+nav {
+    width: 100%;
+}
+
+.navg a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.658)
+}
+
+.navg a:hover {
+    color: white;
+}
+
+.about {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.about2 {
+    font-size:xx-large;
+}
+
+.about1 {
+    color: rgba(255, 255, 255, 0.575)
+}
+
+
+button {
+    background-color: rgb(141, 38, 38);
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.h2 {
+    font-size: 400%;
+    color: rgb(141, 38, 38);
+
+}
+
+.services-header {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.services {
+    text-align: left;
+    /* padding-left: px; */
+    /* margin-right: 0px; */
+    /* padding-top: 0px; */
+     background-color: #21214354; 
+    /* padding-right: 100px; */
+    /* margin-right: 0px; */
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.services-section {
+   padding-top: 100px;
+   /* padding-right: 100px; */
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    
+    padding-left: 200px;
+    padding-right: 200px;
+        
+} 
+
+.contact-section{
+    text-align: center;
+}
+
+.connect {
+    color: rgb(141, 38, 38);
+    font-size: medium;
+    margin-top: 50px;
+}
+input {
+    background-color: rgb(19, 19, 46);
+    padding: 20px 140px;
+    font-size: larger;
+    text-align: left;
+    border: none;
+
+}
+
+.title {
+    padding-bottom: 10px;
+    color: rgb(141, 38, 38);
+   
+}
+
+.input1 {
+    /* padding: 30px; */
+     margin-top: 50px; */
+}
+
+@media (max-width: 900px) {
+    .header .nav ul {
+      gap: 2rem;
+    }
+  
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .services {
+      padding: 6rem 1rem;
+    }
+  }
+
+@media (max-width: 600px){
+     footer {
+        width: 100%;
+    }
+
+    .grid-container {
+        padding-left: 120px;
+    }
+    
+}
+
+footer {
+    text-align: center;
+    padding: 100px;
+    background-color: #110e1f;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
